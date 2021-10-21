@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TransformarMilhas</title>
+  </head>
+  <body>
+    <script language="javascript">
+
+      var milhas;
+      var metros;
+      var kilometros;
+
+      milhas = parseFloat(window.prompt("Informe o valor das Milhas Maritimas para trasformar em Km: "));
+
+      metros = milhas * 1852;
+      kilometros = metros / 1000;
+
+      document.writeln("O valor transformado para kilometros é: " + kilometros);
+    </script>
+  </body>
+</html>
