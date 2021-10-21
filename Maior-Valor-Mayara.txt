@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MARCOS</title>
+  </head>
+  <body>
+    <script language="javascript">
+
+    var maior;
+    var primeiroValor;
+    var segundoValor;
+
+    primeiroValor = parseFloat(window.prompt("Escreva um valor: "));
+    segundoValor = parseFloat(window.prompt("Escreva um segundo valor -diferente do primeiro-: "));
+
+    if (primeiroValor>segundoValor)
+    {
+        maior = primeiroValor;
+    }
+
+    else
+    {
+        maior = segundoValor;
+    }
+
+    document.write("O maior valor é: " + maior);
+    </script>
+  </body>
+</html> 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ClassificacaoTriangulo</title>
+  </head>
+  <body>
+    <script language="javascript">
+
+    var a;
+    var b;
+    var c;
+
+
+    a = parseFloat(window.prompt("Digite o Primeiro lado:"));
+    b = parseFloat(window.prompt("Digite o Segundo lado:"));
+    c = parseFloat(window.prompt("Digite o Terceiro lado:"));
+
+    
+    
+        if((a!=b) & (a!=c) & (b!=c))
+        {
+            document.write("As medidas formam um Triângulo Escaleno.");
+        }
+
+        else if((a=b) & (a=c) & (b=c))
+        {
+            document.write("As medidas formam um Triângulo Equilátero.");
+        }
+        
+        else 
+        {
+            document.write("As medidas formam um Triângulo Isósceles");
+        }
+        
+    </script>
+  </body>
+</html> 

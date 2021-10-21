@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SegundoValorMaior</title>
+  </head>
+  <body>
+    <script language="javascript">
+
+    var aa;
+    var bb;
+
+    aa = parseFloat(window.prompt("Digite o Primeiro Valor: "));
+
+    do
+    {
+    bb = parseFloat(window.prompt("Digite o segundo valor: (deve ser maior que o primeiro)"));
+    } 
+    while(bb<aa | bb == aa);
+
+    document.write("Muito bem, o segundo número é maior que o primeiro!");
+    </script>
+  </body>
+</html>
